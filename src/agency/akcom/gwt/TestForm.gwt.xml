@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+        "https://raw.githubusercontent.com/gwtproject/gwt/2.7.0/distro-source/core/src/gwt-module.dtd">
+
+<module rename-to="TestForm">
+    <inherits name="com.google.gwt.i18n.I18N"/>
+    <inherits name="elemental.Elemental"/>
+
+    <entry-point class="agency.akcom.gwt.client.TestForm"/>
+</module>

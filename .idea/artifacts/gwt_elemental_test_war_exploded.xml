@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gwt-elemental-test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="gwt-elemental-test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gwt-elemental-test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="gwt-elemental-2.8.1" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="gwt-elemental-test/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

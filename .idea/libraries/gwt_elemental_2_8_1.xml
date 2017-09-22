@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="gwt-elemental-2.8.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/gwt-elemental-2.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/gwt-elemental-2.8.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>
