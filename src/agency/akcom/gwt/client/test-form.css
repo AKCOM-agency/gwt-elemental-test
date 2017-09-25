@@ -1,35 +1,29 @@
 body {
     background: #eee !important;
+    font-family: "Helvetica Light", "Helvetica", serif;
 }
 
 .wrapper {
     display: flex;
     margin-top: 80px;
-    margin-bottom: 80px;
     text-align: left;
 }
 .form-signin {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
-    max-width: 380px;
-    padding: 45px 35px 45px;
-    margin: 0 auto;
+    max-width: 300px;
+    padding: 20px 15px 20px;
+    margin: -60px auto;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
-.form-signin-heading, .checkbox {
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
 .checkbox {
     flex-direction: column;
     flex-wrap: nowrap;
-    float: right;
-    padding-top: 10px;
+    margin-top: 32px;
     font-weight: normal;
 }
 .form-control {
@@ -40,6 +34,14 @@ body {
     height: auto;
     padding: 10px;
 }
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
 input[type="text"] {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -58,15 +60,15 @@ select {
     padding: 10px 5px 10px 20px;
     text-indent: 25px;
     margin-bottom: -1px;
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 4px 4px;
 }
 
 button {
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: #4cb6ff;
+    background-color: #2EACD4;
     font-size: 15px;
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 4px 4px;
     color: white;
     padding: 14px 100px;
     margin: 8px 0;
@@ -76,6 +78,17 @@ button {
     text-align: center;
     line-height: 20px;
 
+}
+
+label {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 185px;
+    position: absolute;
+}
+
+button:hover {
+    background-color: #2798BC;
 }
 
 span {

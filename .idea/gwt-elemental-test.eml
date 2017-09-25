@@ -3,8 +3,11 @@
 	<output-test url="file://$MODULE_DIR$/out/test/gwt-elemental-test"/>
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="gwt-elemental-2.8.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/"/>
+	</lib>
 	<levels>
-		<level name="gwt-user" value="project"/>
 		<level name="gwt-elemental-2.8.1" value="project"/>
+		<level name="gwt-user" value="project"/>
 	</levels>
 </component>

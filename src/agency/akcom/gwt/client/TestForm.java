@@ -20,9 +20,6 @@ public class TestForm implements EntryPoint {
         @ClassName("form-signin")
         String formSignin();
 
-        @ClassName("form-signin-heading")
-        String formSigninHeading();
-
         String checkbox();
 
         String wrapper();
@@ -65,6 +62,7 @@ public class TestForm implements EntryPoint {
     private SpanElement nameSpan;
     private InputElement usernameInput;
     private SpanElement jobSpan;
+    private HeadingElement headingElement;
     private SelectElement selectElement;
     private OptionElement tinkerOption;
     private OptionElement tailorOption;
@@ -77,7 +75,13 @@ public class TestForm implements EntryPoint {
     public void onModuleLoad() {
         injectStyles(Browser.getDocument(), css.getText());
 
+        headingElement = (HeadingElement) getDocument().createElement("h1");
+        headingElement.setInnerText("Test Form");
+
         wrapper = divWithClassName(css.wrapper());
+
+        getDocument().getBody().appendChild(headingElement);
+
         formSignin = getDocument().createFormElement();
         formSignin.setClassName(css.formSignin());
 
@@ -128,18 +132,22 @@ public class TestForm implements EntryPoint {
         formSignin.appendChild(selectElement);
 
         checkBox = getDocument().createLabelElement();
-        checkBox.setClassName(css.checkbox());
 
         checkboxInput = getDocument().createInputElement();
+        checkboxInput.setClassName(css.checkbox());
         checkboxInput.setType("checkbox");
-        checkboxInput.setValue("remember-me");
-        checkboxInput.setId("rememberMe");
-        checkboxInput.setName("rememberMe");
+        checkboxInput.setValue("agree");
+        checkboxInput.setId("agree");
+        checkboxInput.setName("userAgree");
         checkboxInput.setRequired(true);
-        checkBox.setTextContent("I agree to send information");
 
-        checkBox.appendChild(checkboxInput);
+        checkBox.setInnerText("I agree to send information");
+        checkBox.setHtmlFor("agree");
+
+        formSignin.appendChild(checkboxInput);
+
         formSignin.appendChild(checkBox);
+
 
         submitButton = getDocument().createButtonElement();
         submitButton.setInnerText("SEND ⇒");
