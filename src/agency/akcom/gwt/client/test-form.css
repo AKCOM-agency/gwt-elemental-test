@@ -1,23 +1,35 @@
 body {
     background: #eee !important;
     font-family: "Helvetica Light", "Helvetica", serif;
+
 }
 
 .wrapper {
     display: flex;
-    margin-top: 80px;
+    align-content: center;
+    justify-content: flex-start;
+    margin-top: 20px;
     text-align: left;
 }
 .form-signin {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    max-width: 300px;
+    align-content: center;
+    justify-content: flex-start;
+    width: 260px;
+    height: 260px;
     padding: 20px 15px 20px;
-    margin: -60px auto;
+    margin: 20px auto;
     background-color: #fff;
     border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    font-family: 'Arial Regular', 'Arial', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333333;
+    line-height: normal;
 }
 
 .checkbox {
@@ -26,6 +38,30 @@ body {
     margin-top: 32px;
     font-weight: normal;
 }
+
+.badge {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 24px;
+    width: 260px;
+    border: 1px solid #e03638;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 20px auto;
+    background: #e03638;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge > span {
+    font-family: 'Helvetica', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
 .form-control {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -67,7 +103,7 @@ button {
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: #2EACD4;
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 4px 4px 4px 4px;
     color: white;
     padding: 14px 100px;
@@ -76,7 +112,7 @@ button {
     cursor: pointer;
     width: 100%;
     text-align: center;
-    line-height: 20px;
+    line-height: 10px;
 
 }
 

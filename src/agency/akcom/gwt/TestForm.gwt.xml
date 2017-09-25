@@ -5,6 +5,7 @@
 <module rename-to="TestForm">
     <inherits name="com.google.gwt.i18n.I18N"/>
     <inherits name="elemental.Elemental"/>
+    <inherits name="com.google.gwt.user.UI"/>
 
     <entry-point class="agency.akcom.gwt.client.TestForm"/>
 </module>
