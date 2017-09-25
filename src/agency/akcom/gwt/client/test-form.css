@@ -1,13 +1,18 @@
 body {
     background: #eee !important;
 }
+
 .wrapper {
+    display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: left;
 }
 .form-signin {
-    display: inline-grid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     max-width: 380px;
     padding: 45px 35px 45px;
     margin: 0 auto;
@@ -17,38 +22,62 @@ body {
 }
 
 .form-signin-heading, .checkbox {
-    margin-bottom: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 .checkbox {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: right;
+    padding-top: 10px;
     font-weight: normal;
 }
 .form-control {
+    flex-direction: column;
+    flex-wrap: nowrap;
     position: relative;
     font-size: 16px;
     height: auto;
     padding: 10px;
 }
 input[type="text"] {
-    background-image: url(http://d2t44wh9rnwl5y.cloudfront.net/gsc/929PD8/1f/35/56/1f355676a0fc44aabf551d47453ea2fe/images/test_form/u36.png?token=65936f35cde926095832c203e7780e57);
-    background-position: 10px center;
-    background-repeat: no-repeat;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: url(http://d2t44wh9rnwl5y.cloudfront.net/gsc/929PD8/1f/35/56/1f355676a0fc44aabf551d47453ea2fe/images/test_form/u36.png?token=499de4f1787a4af421bc24bc088c6fb5) no-repeat 10px center;
     border: 1px solid #ccc;
     padding: 10px 5px 10px 20px;
     text-indent: 20px;
-    border-radius: 4px;
-    margin-bottom: -1px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    margin-bottom: 20px;
+    border-radius: 4px 4px 0 0;
 }
 select {
-    background-image: url(http://d2t44wh9rnwl5y.cloudfront.net/gsc/929PD8/1f/35/56/1f355676a0fc44aabf551d47453ea2fe/images/test_form/u38.png?token=400ff45e34b33a2ad143abc7e25fded8);
-    background-position: 10px center;
-    background-repeat: no-repeat;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: url(http://d2t44wh9rnwl5y.cloudfront.net/gsc/929PD8/1f/35/56/1f355676a0fc44aabf551d47453ea2fe/images/test_form/u38.png?token=6da6a3010e8cd4a36f808b8478822455) no-repeat 10px center;
     border: 1px solid #ccc;
     padding: 10px 5px 10px 20px;
     text-indent: 25px;
-    border-radius: 4px;
     margin-bottom: -1px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 4px 4px 0 0;
+}
+
+button {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #4cb6ff;
+    font-size: 15px;
+    border-radius: 4px 4px 0 0;
+    color: white;
+    padding: 14px 100px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+span {
+    padding-bottom: 10px;
 }

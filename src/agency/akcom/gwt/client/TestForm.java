@@ -4,7 +4,6 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
-import com.google.gwt.user.client.ui.Button;
 import elemental.client.Browser;
 import elemental.dom.Document;
 import elemental.dom.Element;
@@ -66,12 +65,14 @@ public class TestForm implements EntryPoint {
 
     private DivElement wrapper;
     private FormElement formSignin;
-    private HeadingElement formSigninHeading;
     private SpanElement nameSpan;
     private InputElement usernameInput;
     private SpanElement jobSpan;
     private SelectElement selectElement;
     private OptionElement tinkerOption;
+    private OptionElement tailorOption;
+    private OptionElement soldierOption;
+    private OptionElement sailorOption;
     private LabelElement checkBox;
     private InputElement checkboxInput;
     private ButtonElement submitButton;
@@ -84,11 +85,6 @@ public class TestForm implements EntryPoint {
         formSignin.setClassName(css.formSignin());
 
         wrapper.appendChild(formSignin);
-        formSigninHeading = (HeadingElement) getDocument().createElement("h1");
-        formSigninHeading.setClassName(css.formSigninHeading());
-        formSigninHeading.setInnerText("Test form");
-
-        formSignin.appendChild(formSigninHeading);
 
         nameSpan = getDocument().createSpanElement();
         nameSpan.setInnerText("Name");
@@ -98,6 +94,7 @@ public class TestForm implements EntryPoint {
         usernameInput = getDocument().createInputElement();
         usernameInput.setType("text");
         usernameInput.setName("username");
+        usernameInput.setRequired(true);
         usernameInput.setClassName(css.formControl());
         usernameInput.setPlaceholder("Enter your name");
 
@@ -110,11 +107,26 @@ public class TestForm implements EntryPoint {
 
         selectElement = getDocument().createSelectElement();
         selectElement.setClassName(css.formControl());
+        selectElement.setRequired(true);
+        selectElement.setName("job");
 
         tinkerOption = getDocument().createOptionElement();
+        soldierOption = getDocument().createOptionElement();
+        tailorOption = getDocument().createOptionElement();
+        sailorOption = getDocument().createOptionElement();
         tinkerOption.setInnerText("Tinker");
+        tinkerOption.setValue("tinker");
+        soldierOption.setInnerText("Soldier");
+        soldierOption.setValue("soldier");
+        tailorOption.setInnerText("Tailor");
+        tailorOption.setValue("tailor");
+        sailorOption.setInnerText("Sailor");
+        sailorOption.setValue("sailor");
 
         selectElement.appendChild(tinkerOption);
+        selectElement.appendChild(soldierOption);
+        selectElement.appendChild(tailorOption);
+        selectElement.appendChild(sailorOption);
 
         formSignin.appendChild(selectElement);
 
@@ -126,14 +138,14 @@ public class TestForm implements EntryPoint {
         checkboxInput.setValue("remember-me");
         checkboxInput.setId("rememberMe");
         checkboxInput.setName("rememberMe");
-        checkboxInput.setInnerText("I agree to send information");
+        checkboxInput.setRequired(true);
+        checkBox.setTextContent("I agree to send information");
 
         checkBox.appendChild(checkboxInput);
         formSignin.appendChild(checkBox);
 
         submitButton = getDocument().createButtonElement();
-        submitButton.setClassName("btn btn-lg btn-primary btn-block");
-        submitButton.setInnerText("Send");
+        submitButton.setInnerText("SEND ⇒");
 
         formSignin.appendChild(submitButton);
 
