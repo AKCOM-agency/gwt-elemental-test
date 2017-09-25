@@ -1,18 +1,15 @@
 package agency.akcom.gwt.client;
 
+import static elemental.client.Browser.getDocument;
+
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
+
 import elemental.client.Browser;
 import elemental.dom.Document;
-import elemental.dom.Element;
 import elemental.html.*;
-
-import java.util.ArrayList;
-
-import static elemental.client.Browser.getDocument;
-
 
 public class TestForm implements EntryPoint {
 

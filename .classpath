@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="/gwt-elemental-test/src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gwt-user"/>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gwt-elemental-2.8.1"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/gwt-elemental-2.8.1.jar"/>
+	<classpathentry kind="output" path="web/WEB-INF/classes"/>
 </classpath>
