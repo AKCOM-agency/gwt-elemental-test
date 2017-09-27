@@ -1,12 +1,11 @@
 package agency.akcom.gwt.client;
 
+import static elemental.client.Browser.getDocument;
+
 import elemental.html.DivElement;
 import elemental.html.InputElement;
 import elemental.html.SelectElement;
 import elemental.html.SpanElement;
-import jdk.internal.util.xml.impl.Input;
-
-import static elemental.client.Browser.getDocument;
 
 public class Utils {
     public static DivElement div() {
