@@ -8,7 +8,8 @@
           <element id="module-output" name="gwt-elemental-test" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="gwt-elemental-2.8.1" />
+          <element id="library" level="module" name="gwt-elemental-2.8.1.jar" module-name="gwt-elemental-test" />
+          <element id="library" level="project" name="gwt-dev-2.8.1" />
         </element>
       </element>
       <element id="gwt-compiler-output" facet="gwt-elemental-test/gwt/GWT" />

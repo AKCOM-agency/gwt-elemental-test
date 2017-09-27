@@ -7,19 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d85264a-90f1-47ea-ba8e-e89657296be8" name="Default" comment="Added gwt-elemental 2.8.1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/TestForm/clear.cache.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/TestForm/E692DBC4C5A39769E7981D416347E572.cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/TestForm/TestForm.devmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/TestForm/TestForm.nocache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/TestForm/compilation-mappings.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/WEB-INF/classes/agency/akcom/gwt/TestForm.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/WEB-INF/classes/agency/akcom/gwt/client/test-form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/gwt_elemental_test_war_exploded/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/gwt-elemental-test/agency/akcom/gwt/TestForm.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/gwt-elemental-test/agency/akcom/gwt/client/test-form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gwt-elemental-test.iml" afterPath="$PROJECT_DIR$/.idea/gwt-elemental-test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/dude.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/job.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gwt_dev_2_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agency/akcom/gwt/client/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/MainForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/CssResources.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gwt_elemental_2_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/agency/akcom/gwt/client/test-form.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/gwt_elemental_test_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/gwt_elemental_test_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gwt-elemental-test.eml" afterPath="$PROJECT_DIR$/.idea/gwt-elemental-test.eml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml" afterPath="$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java" afterPath="$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,22 +37,30 @@
       <file leaf-file-name="TestForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-706">
-              <caret line="88" column="53" lean-forward="false" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+            <state relative-caret-position="-554">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1178#1189#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="3">
+              <caret line="46" column="54" lean-forward="false" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#divWithId#0;class#Utils#0" expanded="false" />
+                <element signature="method#div#1;class#Utils#0" expanded="false" />
+                <element signature="method#div#2;class#Utils#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,30 +68,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-form.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/test-form.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
-              <folding>
-                <marker date="1506332455693" expanded="true" signature="5:41" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="52:143" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="157:425" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="459:513" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="524:644" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="659:795" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="815:1208" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="1216:1609" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="1618:1922" ph="{...}" />
-                <marker date="1506332455693" expanded="true" signature="1929:1958" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,14 +78,91 @@
       <file leaf-file-name="TestForm.gwt.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CssResources.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/CssResources.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/MainForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="157" column="78" lean-forward="true" selection-start-line="157" selection-start-column="78" selection-end-line="157" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3404#3405#0" expanded="true" />
+                <element signature="e#3443#3444#0" expanded="true" />
+                <element signature="e#3499#3500#0" expanded="true" />
+                <element signature="e#3545#3546#0" expanded="true" />
+                <element signature="e#3601#3602#0" expanded="true" />
+                <element signature="e#3647#3648#0" expanded="true" />
+                <element signature="e#3703#3704#0" expanded="true" />
+                <element signature="e#3749#3750#0" expanded="true" />
+                <element signature="e#3802#3803#0" expanded="true" />
+                <element signature="e#3845#3846#0" expanded="true" />
+                <element signature="e#3898#3899#0" expanded="true" />
+                <element signature="e#3941#3942#0" expanded="true" />
+                <element signature="e#4003#4004#0" expanded="true" />
+                <element signature="e#4054#4055#0" expanded="true" />
+                <element signature="e#4114#4115#0" expanded="true" />
+                <element signature="e#4164#4165#0" expanded="true" />
+                <element signature="e#4217#4218#0" expanded="true" />
+                <element signature="e#4260#4261#0" expanded="true" />
+                <element signature="e#4322#4323#0" expanded="true" />
+                <element signature="e#4373#4374#0" expanded="true" />
+                <element signature="e#4428#4429#0" expanded="true" />
+                <element signature="e#4473#4474#0" expanded="true" />
+                <element signature="e#4850#4851#0" expanded="true" />
+                <element signature="e#4917#4918#0" expanded="true" />
+                <element signature="e#4977#4978#0" expanded="true" />
+                <element signature="e#5044#5045#0" expanded="true" />
+                <element signature="e#5650#5651#0" expanded="true" />
+                <element signature="e#5698#5699#0" expanded="true" />
+                <element signature="e#5771#5772#0" expanded="true" />
+                <element signature="e#5817#5818#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-form.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="143" column="20" lean-forward="false" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#ccc</find>
+      <find>BADGE</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,10 +175,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml" />
-        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/test-form.css" />
-        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormElement.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/html/DivElement.class" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/Element.class" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/Node.class" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/events/EventTarget.class" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/css/CSSStyleSheet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/MediaStreamTrack.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/MediaStreamTrack.class" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/html/BaseElement.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/html/BodyElement.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/Document.class" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/client/Browser.class" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/BaseElement.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/js/html/JsHtmlElement.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/BaseDivElement.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/test-form.css" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/FormElement.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/resources/CssResources.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormMainElement.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/resources/TestForm.gwt.xml" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormAbstractElement.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormParagraphElement.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormBaseElement.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormInputElement.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/Utils.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/CssResources.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/events/EventListener.class" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css" />
+        <option value="$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/MainForm.java" />
       </list>
     </option>
   </component>
@@ -148,7 +245,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,35 +264,33 @@
               <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agency" type="462c0819:PsiDirectoryNode" />
-              <item name="akcom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agency" type="462c0819:PsiDirectoryNode" />
-              <item name="akcom" type="462c0819:PsiDirectoryNode" />
               <item name="gwt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agency" type="462c0819:PsiDirectoryNode" />
-              <item name="akcom" type="462c0819:PsiDirectoryNode" />
               <item name="gwt" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gwt" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gwt" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,14 +304,14 @@
               <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gwt-elemental-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="gwt-elemental-test" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="gwt-elemental-2.8.1.jar" type="ab9368bb:PsiFileNode" />
             </path>
           </expand>
@@ -222,21 +319,23 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Иван\Documents\gwt-elemental-test\web\WEB-INF\libs" />
+      <recent name="C:\Users\Developer\Projects\gwt-elemental-test\web\WEB-INF\lib" />
+      <recent name="C:\Users\Developer\Projects\gwt-elemental-test\web\images" />
+      <recent name="C:\Users\Developer\Projects\gwt-elemental-test\src\agency\akcom\gwt\shared\resources" />
+      <recent name="C:\Users\Developer\Projects\gwt-elemental-test\src\agency\akcom\gwt" />
+      <recent name="C:\Users\Developer\Projects\gwt-elemental-test\src\agency\akcom\gwt\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,6 +464,8 @@
       <workItem from="1506113410201" duration="2810000" />
       <workItem from="1506194389356" duration="597000" />
       <workItem from="1506327243492" duration="6095000" />
+      <workItem from="1506419290444" duration="14685000" />
+      <workItem from="1506511051518" duration="10315000" />
     </task>
     <task id="LOCAL-00001" summary="Some style rework.">
       <created>1506332635154</created>
@@ -384,10 +485,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9884000" />
+    <option name="totallyTimeSpent" value="34884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -400,25 +501,25 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39978093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,11 +542,99 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="33" column="80" lean-forward="false" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1178#1189#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#divWithId#0;class#Utils#0" expanded="false" />
+            <element signature="method#div#1;class#Utils#0" expanded="false" />
+            <element signature="method#div#2;class#Utils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormBaseElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormParagraphElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/CssResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormInputElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="35" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="74" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -458,22 +647,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/test-form.css">
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <marker date="1506332455693" expanded="true" signature="5:41" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="52:143" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="157:425" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="459:513" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="524:644" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="659:795" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="815:1208" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1216:1609" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1618:1922" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1929:1958" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -491,7 +714,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1178#1189#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,22 +730,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/test-form.css">
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <marker date="1506332455693" expanded="true" signature="5:41" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="52:143" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="157:425" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="459:513" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="524:644" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="659:795" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="815:1208" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1216:1609" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1618:1922" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1929:1958" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +752,10 @@
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1178#1189#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -550,57 +768,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/Element.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/html/DivElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/css/CSSStyleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/html/BodyElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/html/BaseElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/MediaStreamTrack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/MediaStreamTrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/BaseElement.java" />
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/events/EventTarget.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/js/html/JsHtmlElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/dom/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="181" column="36" lean-forward="true" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/client/Browser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormMainElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormAbstractElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormParagraphElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormBaseElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/TestFormInputElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/gwt-elemental-2.8.1.jar!/elemental/events/EventListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/CssResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/test-form.css">
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/TestForm.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="46" column="54" lean-forward="false" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
           <folding>
-            <marker date="1506332455693" expanded="true" signature="5:41" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="52:143" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="157:425" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="459:513" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="524:644" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="659:795" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="815:1208" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1216:1609" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1618:1922" ph="{...}" />
-            <marker date="1506332455693" expanded="true" signature="1929:1958" ph="{...}" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#divWithId#0;class#Utils#0" expanded="false" />
+            <element signature="method#div#1;class#Utils#0" expanded="false" />
+            <element signature="method#div#2;class#Utils#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/TestForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="88" column="53" lean-forward="false" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+        <state relative-caret-position="-554">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1178#1189#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/shared/resources/test-form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="296">
+          <caret line="143" column="20" lean-forward="false" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agency/akcom/gwt/client/elements/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="157" column="78" lean-forward="true" selection-start-line="157" selection-start-column="78" selection-end-line="157" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3404#3405#0" expanded="true" />
+            <element signature="e#3443#3444#0" expanded="true" />
+            <element signature="e#3499#3500#0" expanded="true" />
+            <element signature="e#3545#3546#0" expanded="true" />
+            <element signature="e#3601#3602#0" expanded="true" />
+            <element signature="e#3647#3648#0" expanded="true" />
+            <element signature="e#3703#3704#0" expanded="true" />
+            <element signature="e#3749#3750#0" expanded="true" />
+            <element signature="e#3802#3803#0" expanded="true" />
+            <element signature="e#3845#3846#0" expanded="true" />
+            <element signature="e#3898#3899#0" expanded="true" />
+            <element signature="e#3941#3942#0" expanded="true" />
+            <element signature="e#4003#4004#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
+            <element signature="e#4114#4115#0" expanded="true" />
+            <element signature="e#4164#4165#0" expanded="true" />
+            <element signature="e#4217#4218#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4322#4323#0" expanded="true" />
+            <element signature="e#4373#4374#0" expanded="true" />
+            <element signature="e#4428#4429#0" expanded="true" />
+            <element signature="e#4473#4474#0" expanded="true" />
+            <element signature="e#4850#4851#0" expanded="true" />
+            <element signature="e#4917#4918#0" expanded="true" />
+            <element signature="e#4977#4978#0" expanded="true" />
+            <element signature="e#5044#5045#0" expanded="true" />
+            <element signature="e#5650#5651#0" expanded="true" />
+            <element signature="e#5698#5699#0" expanded="true" />
+            <element signature="e#5771#5772#0" expanded="true" />
+            <element signature="e#5817#5818#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +1054,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -671,7 +1061,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gwt-elemental-2.8.1</last-edited>
+          <last-edited>gwt-dev-2.8.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

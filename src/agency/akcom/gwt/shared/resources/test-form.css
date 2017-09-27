@@ -1,0 +1,155 @@
+body {
+    background-color: #EFF3F6;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: auto;
+}
+
+.paragraph {
+    font-family: 'Helvetica Light', 'Helvetica', serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    color: #354052;
+}
+
+#u0 {
+    text-align: left;
+    padding-bottom:  10px;
+}
+
+#u1 {
+    align-self: left;
+    margin: 20px 20px 1px;
+    font-size: 13px;
+}
+
+#u2 {
+    align-self: left;
+    margin: 1px 20px;
+    font-size: 13px;
+}
+
+.input_form {
+    display: flex;
+    flex-flow: column nowrap;
+
+    flex-basis: 220px;
+
+    margin: 10px;
+    width: 220px;
+    max-height: 36px;
+}
+
+.input_form:required {
+    border: 1px solid red; /* Красная рамка для обязательных полей */
+}
+
+.main_form {
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 260px;
+
+    background-color: white;
+    width: 260px;
+
+    justify-content: flex-start;
+    border: 1px solid #d3d3d3;
+
+    align-items: center;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.input_checkbox {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-self: left;
+    justify-content: flex-start;
+    padding-left: 20px;
+
+    font-family: 'Helvetica', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #354052;
+    word-wrap: break-word;
+}
+
+.send_button {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #2EACD4;
+    font-size: 15px;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    line-height: 20px;
+    width: 220px;
+    height: 36px;
+}
+
+.send_button:hover {
+    background-color: #2798BC;
+}
+
+
+#u4_checkbox {
+    margin-top: 2px;
+}
+
+.inner_editor {
+    flex-basis: 176px;
+    text-indent: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.inner_option {
+    text-decoration: underline;
+    border: 1px solid #d3d3d3;
+}
+
+#u3_select {
+    cursor:pointer;
+}
+
+#username_editor {
+    background: url(../images/dude.png) no-repeat 10px center;
+}
+
+#job_editor {
+    background: url(../images/job.png) no-repeat 10px center;
+}
+
+.badge {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 35px;
+    width: 260px;
+    border: 1px solid #e03638;
+    border-radius: 5px;
+    background: #e03638;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.badgeSpan {
+    font-family: 'Helvetica', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
