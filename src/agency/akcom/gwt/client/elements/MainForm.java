@@ -147,10 +147,12 @@ public class MainForm {
 
     private void showErrorBadge(DivElement badgeElement) {
         badgeElement.setAttribute("style", "display: flex");
+        usernameInput.setAttribute("style", " border: 1px solid red;");
     }
 
     private void hideErrorBadge(DivElement badgeElement) {
         badgeElement.setAttribute("style", "display: none");
+        usernameInput.setAttribute("style", " border: 1px solid #d3d3d3;");
     }
 
     private void addEventListenerToSendButton() {

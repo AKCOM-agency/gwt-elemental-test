@@ -47,10 +47,6 @@ body {
     max-height: 36px;
 }
 
-.input_form:required {
-    border: 1px solid red; /* Красная рамка для обязательных полей */
-}
-
 .main_form {
     margin: auto;
     display: flex;
@@ -82,6 +78,7 @@ body {
     word-wrap: break-word;
 }
 
+
 .send_button {
     display: flex;
     flex-flow: column;
@@ -92,7 +89,7 @@ body {
     color: white;
     border: none;
     padding: 5px 5px;
-    margin-top: 10px;
+    margin-top: 15px;
     cursor: pointer;
     line-height: 20px;
     width: 220px;
@@ -102,7 +99,6 @@ body {
 .send_button:hover {
     background-color: #2798BC;
 }
-
 
 #u4_checkbox {
     margin-top: 2px;
@@ -138,10 +134,10 @@ body {
     flex-wrap: nowrap;
     height: 35px;
     width: 260px;
-    border: 1px solid #e03638;
+    border: 1px solid #E75252;
     border-radius: 5px;
-    background: #e03638;
-    margin-top: 10px;
+    background: #E75252;
+    margin-top: 15px;
     justify-content: center;
     align-items: center;
 }
